@@ -7,11 +7,11 @@ export default class Persona {
     }
     
     saludar () {
-        console.log('hola soy ' + this.nombre + ' ' + this.apellido);
+        return 'hola soy ' + this.nombre + ' ' + this.apellido;
     }
 
     saludar2 () {
-        console.log(`hola soy  ${this.nombre}  ${this.apellido}`);
+        return `hola soy  ${this.nombre}  ${this.apellido}`;
     }
 
     soyAlto () {
